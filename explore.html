@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="public/sushi.png" />
+    <link rel="stylesheet" href="css/explore.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SushiJKT</title>
+  </head>
+  <body>
+    <header>
+<!-- Navbar -->
+      <nav class="header__nav">
+        <div class="header__logo">
+            <a href="index.html">
+          <h4 data-aos="fade-down">SushiJKT</h4>
+        </a>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu" data-aos="fade-down">
+          <li>
+            <a href="explore.html">MENU</a>
+          </li>
+            <a href="about-us.html">ABOUT US</a>
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- Menu -->
+    <section class="menu">
+        <div class="menu-container">
+            <div class="menu-head">
+                <h2>Our Menu</h2>
+                <p>Kami mengutamakan kualitas bahan-bahan segar dan berkualitas tinggi dalam setiap hidangan kami. 
+                    SushiJKT menawarkan berbagai pilihan sushi, sashimi, dan maki yang disiapkan oleh koki berbakat yang ahli dalam seni kuliner Jepang. 
+                    Setiap hidangan kami adalah perpaduan sempurna antara cita rasa yang autentik dan inovasi kreatif, menciptakan pengalaman makan yang tak terlupakan bagi para pelanggan kami.
+                </p>
+
+            </div>
+            <div class="menu-btns">
+                <button type="button" class="menu-btn active-btn" id="featured">
+                    Featured 
+                </button>
+                <button type="button" class="menu-btn" id="today-special">
+                    Today's Special 
+                </button>
+                <button type="button" class="menu-btn" id="new-arrival">
+                    New Arrivals 
+                </button>
+            </div>
+
+            <div class="food-items">
+                <!-- items -->
+                <div class="food-item featured">
+                    <div class="food-img">
+                        <img src="assets/sushi-1.png" alt="Sushi">
+                    </div>
+                    <div class="food-content">
+                        <h2 class="food-name"> Salmon Sushi </h2>
+                        <div class="line"></div>
+                        <h3 class="food-price">Rp 25.000</h3>
+                        <ul class="rating">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class = "category">Categories: <span>Featured</span></p>
+                    </div>
+                </div>
+                <!-- end of items -->
+
+                <!-- item -->
+                <div class = "food-item today-special">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-12.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Chiizu Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 20.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Today's Special</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item new-arrival">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-6.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Dango</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 15.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>New Arrivals</span></p>
+                    </div>
+                </div>
+                <!-- end of item --> 
+
+                <!-- item -->
+                <div class = "food-item featured">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-7.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Miso Shiru</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 35.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Featured</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item today-special">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-8.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Abura Ramen</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 55.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas  fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Today's Special</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item new-arrival">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-10.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Yakisoba</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 30.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>New Arrivals</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item featured">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-9.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Nigiri Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 35.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Featured</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item today-special">
+                    <div class = "food-img">
+                    <img src = "assets/uramakisushi.jpg" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Uramaki Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 29.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Today's Special</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item new-arrival">
+                    <div class = "food-img">
+                    <img src = "assets/inari-sushi.jpg" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Inari Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 35.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>New Arrivals</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item featured">
+                    <div class = "food-img">
+                    <img src = "assets/temaki sushi.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Temaki Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 90.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Featured</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item today-special">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-5.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Make Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 35.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Today's Special</span></p>
+                    </div>
+                </div>
+                <!-- end of item --> 
+
+                <!-- item -->
+                <div class = "food-item new-arrival">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-11.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Oshizushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 55.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>New Arrivals</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item featured">
+                    <div class = "food-img">
+                    <img src = "assets/shioramen.jpg" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Shio Ramen</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 65.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Featured</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item today-special">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-12.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Tamago Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 20.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Today's Special</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item new-arrival">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-2.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Ebi Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 35.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>New Arrivals</span></p>
+                    </div>
+                </div>
+                <!-- end of item --> 
+
+                <!-- item -->
+                <div class = "food-item featured">
+                    <div class = "food-img">
+                    <img src = "assets/unagisushi.jpg" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Unagi Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 32.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Featured</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item today-special">
+                    <div class = "food-img">
+                    <img src = "assets/tobikosushi.jpg" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Tobiko Sushi</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 37.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>Today's Special</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+
+                <!-- item -->
+                <div class = "food-item new-arrival">
+                    <div class = "food-img">
+                    <img src = "assets/sushi-4.png" alt = "food image">
+                    </div>
+                    <div class = "food-content">
+                    <h2 class = "food-name">Maccha</h2>
+                    <div class = "line"></div>
+                    <h3 class = "food-price">Rp 18.000</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                    </ul>
+                    <p class = "category">Categories: <span>New Arrivals</span></p>
+                    </div>
+                </div>
+                <!-- end of item -->
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer class="footer flex-between">
+      <h3 class="footer__logo">
+        <a href="index.html"><span>Sushi</span>JKT</a>
+      </h3>
+
+      <ul class="footer__nav">
+        <li><a href="explore.html">Menu</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <a href="https://www.facebook.com/daffa.dhiyaulhaq.399"><li class="flex-center">
+          <img src="assets/facebook.svg" alt="facebook" />
+        </li></a>
+        <a href="https://instagram.com/fbutnotwith/"><li class="flex-center">
+          <img src="assets/instagram.svg" alt="instagram" />
+        </li></a>
+        <a href="https://twitter.com/DaffaDh71919560"><li class="flex-center">
+          <img src="assets/twitter.svg" alt="twitter" />
+        </li></a>
+      </ul>
+    </footer>
+
+    <script src="js/script.js" type="module"></script>
+    <script src="js/explore.js" type="module"></script>
+  </body>
+</html>
